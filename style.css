@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #FFFFFF;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+.menu_list {
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.menu_list_main {
+    color: #070707;
+}
+
+hr {
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-top: 32px;
+}
+
+.top_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.name {
+    font-family: Gilroy-Bold;
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+    width: 20%;
+    margin: 0px;
+}
+
+.short_info {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    width: 20%;
+}
+
+.lang {
+    transform: rotate(-90deg);
+}
+
+.rus,
+.eng {
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.eng {
+    color: #070707;
+}
+
+.selfy {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.about_me {
+    background: #F6F6F6;
+    text-align: center;
+    margin-top: 104px;
+    padding-bottom: 77px;
+}
+
+.about_me_header {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-top: 120px;
+    margin: 0;
+}
+
+.about_me_info {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    padding-bottom: 30px;
+}
+
+.skills_heading {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-top: 91px;
+    margin: 0px;
+}
+
+.skills_info {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-top: 70px;
+}
+
+.card_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-bottom: 110px;
+}
+
+.card {
+    display: block;
+    max-width: 100%;
+}
+
+.card_margin {
+    margin-right: 40px;
+}
+
+.portfolio {
+    background: #F6F6F6;
+}
+
+.portfolio_heading {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-top: 112px;
+    padding-bottom: 47px;
+}
+
+.project {
+    width: 100%;
+}
+
+.project_link {
+    display: block;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+.project_link_padding {
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+}
+
+.footer {
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.contacts {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-top: 114px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer_info {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    padding-bottom: 20px;
+}
+
+.send_message {
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #070707;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 8px 30px;
+    text-decoration: none;
+}
+
+.soccial_box {
+    display: flex;
+    max-width: 343px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 45px;
+}
+
+.footer_info_bottom {
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    padding-bottom: 123px;
+}
+
+@media (max-width: 768px) {
+    .card_box {
+        display: block;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li,
+    .menu_list {
+        padding: 10px;
+    }
+
+    .top_info {
+        flex-direction: column;
+    }
+
+    .name,
+    .short_info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .lang {
+        transform: rotate(0deg);
+        margin-top: 20px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+}
